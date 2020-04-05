@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='mapTestTests.xctest' tests='3' failures='0'>
+  <testsuite name='mapTestTests.DetailsViewControllerTest' tests='1' failures='0'>
+    <testcase classname='mapTestTests.DetailsViewControllerTest' name='testDetailScreen' time='0.069'/>
+  </testsuite>
+  <testsuite name='mapTestTests.mapTestTests' tests='2' failures='0'>
+    <testcase classname='mapTestTests.mapTestTests' name='testExample' time='0.001'/>
+    <testcase classname='mapTestTests.mapTestTests' name='testPerformanceExample' time='0.555'/>
+  </testsuite>
+</testsuites>

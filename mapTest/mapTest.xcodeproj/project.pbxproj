@@ -14,24 +14,25 @@
 		DB78278D24391F4200A27176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB78278C24391F4200A27176 /* Assets.xcassets */; };
 		DB78279024391F4200A27176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB78278E24391F4200A27176 /* LaunchScreen.storyboard */; };
 		DB78279B24391F4200A27176 /* mapTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB78279A24391F4200A27176 /* mapTestTests.swift */; };
-		DBB3D4BE24397A22002CDC57 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB3D4BD24397A22002CDC57 /* SnapKit.framework */; };
-		DBB3D4BF24397A22002CDC57 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBB3D4BD24397A22002CDC57 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DBCFB985243A62F400331F94 /* GMSDayOfWeek+mapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCFB984243A62F400331F94 /* GMSDayOfWeek+mapTest.swift */; };
 		DBCFB989243A6F3900331F94 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCFB988243A6F3900331F94 /* LocationManager.swift */; };
 		DBCFB98B243A743D00331F94 /* AgenciesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCFB98A243A743D00331F94 /* AgenciesManager.swift */; };
 		DBCFB98D243A837B00331F94 /* DetailsViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCFB98C243A837B00331F94 /* DetailsViewControllerTest.swift */; };
-		DBCFB991243A85C800331F94 /* FBSnapshotTestCase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBCFB990243A85C800331F94 /* FBSnapshotTestCase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBCFB999243A8C9B00331F94 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCFB992243A8C9A00331F94 /* FBSnapshotTestCase.framework */; };
+		DBCFB99A243A8C9B00331F94 /* FBSnapshotTestCase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBCFB992243A8C9A00331F94 /* FBSnapshotTestCase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBCFB99B243A8C9B00331F94 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCFB993243A8C9A00331F94 /* GoogleMaps.framework */; };
+		DBCFB99C243A8C9B00331F94 /* GoogleMaps.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBCFB993243A8C9A00331F94 /* GoogleMaps.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBCFB99D243A8C9B00331F94 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCFB994243A8C9A00331F94 /* SnapKit.framework */; };
+		DBCFB99E243A8C9B00331F94 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBCFB994243A8C9A00331F94 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBCFB99F243A8C9B00331F94 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCFB995243A8C9A00331F94 /* GoogleMapsCore.framework */; };
+		DBCFB9A0243A8C9B00331F94 /* GoogleMapsCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBCFB995243A8C9A00331F94 /* GoogleMapsCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBCFB9A1243A8C9B00331F94 /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCFB996243A8C9A00331F94 /* GooglePlaces.framework */; };
+		DBCFB9A2243A8C9B00331F94 /* GooglePlaces.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBCFB996243A8C9A00331F94 /* GooglePlaces.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBCFB9A3243A8C9B00331F94 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCFB997243A8C9A00331F94 /* GoogleMapsBase.framework */; };
+		DBCFB9A4243A8C9B00331F94 /* GoogleMapsBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBCFB997243A8C9A00331F94 /* GoogleMapsBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBCFB9A5243A8C9B00331F94 /* GoogleMapsM4B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCFB998243A8C9A00331F94 /* GoogleMapsM4B.framework */; };
+		DBCFB9A6243A8C9B00331F94 /* GoogleMapsM4B.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBCFB998243A8C9A00331F94 /* GoogleMapsM4B.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DBD2DFB7243A3E5D0042AE47 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2DFB6243A3E5D0042AE47 /* DetailsViewController.swift */; };
-		DBD2DFBD243A53C00042AE47 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2DFB8243A53C00042AE47 /* GoogleMaps.framework */; };
-		DBD2DFBE243A53C00042AE47 /* GoogleMaps.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2DFB8243A53C00042AE47 /* GoogleMaps.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DBD2DFBF243A53C00042AE47 /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2DFB9243A53C00042AE47 /* GooglePlaces.framework */; };
-		DBD2DFC0243A53C00042AE47 /* GooglePlaces.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2DFB9243A53C00042AE47 /* GooglePlaces.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DBD2DFC1243A53C00042AE47 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2DFBA243A53C00042AE47 /* GoogleMapsBase.framework */; };
-		DBD2DFC2243A53C00042AE47 /* GoogleMapsBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2DFBA243A53C00042AE47 /* GoogleMapsBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DBD2DFC3243A53C00042AE47 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2DFBB243A53C00042AE47 /* GoogleMapsCore.framework */; };
-		DBD2DFC4243A53C00042AE47 /* GoogleMapsCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2DFBB243A53C00042AE47 /* GoogleMapsCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DBD2DFC5243A53C00042AE47 /* GoogleMapsM4B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2DFBC243A53C00042AE47 /* GoogleMapsM4B.framework */; };
-		DBD2DFC6243A53C00042AE47 /* GoogleMapsM4B.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2DFBC243A53C00042AE47 /* GoogleMapsM4B.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,13 +52,13 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DBCFB991243A85C800331F94 /* FBSnapshotTestCase.framework in Embed Frameworks */,
-				DBD2DFC6243A53C00042AE47 /* GoogleMapsM4B.framework in Embed Frameworks */,
-				DBD2DFC0243A53C00042AE47 /* GooglePlaces.framework in Embed Frameworks */,
-				DBD2DFC2243A53C00042AE47 /* GoogleMapsBase.framework in Embed Frameworks */,
-				DBD2DFC4243A53C00042AE47 /* GoogleMapsCore.framework in Embed Frameworks */,
-				DBD2DFBE243A53C00042AE47 /* GoogleMaps.framework in Embed Frameworks */,
-				DBB3D4BF24397A22002CDC57 /* SnapKit.framework in Embed Frameworks */,
+				DBCFB99E243A8C9B00331F94 /* SnapKit.framework in Embed Frameworks */,
+				DBCFB99C243A8C9B00331F94 /* GoogleMaps.framework in Embed Frameworks */,
+				DBCFB9A6243A8C9B00331F94 /* GoogleMapsM4B.framework in Embed Frameworks */,
+				DBCFB99A243A8C9B00331F94 /* FBSnapshotTestCase.framework in Embed Frameworks */,
+				DBCFB9A4243A8C9B00331F94 /* GoogleMapsBase.framework in Embed Frameworks */,
+				DBCFB9A0243A8C9B00331F94 /* GoogleMapsCore.framework in Embed Frameworks */,
+				DBCFB9A2243A8C9B00331F94 /* GooglePlaces.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,18 +78,18 @@
 		DB78279624391F4200A27176 /* mapTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB78279A24391F4200A27176 /* mapTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapTestTests.swift; sourceTree = "<group>"; };
 		DB78279C24391F4200A27176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBB3D4BD24397A22002CDC57 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = ../Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		DBCFB984243A62F400331F94 /* GMSDayOfWeek+mapTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GMSDayOfWeek+mapTest.swift"; sourceTree = "<group>"; };
 		DBCFB988243A6F3900331F94 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		DBCFB98A243A743D00331F94 /* AgenciesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgenciesManager.swift; sourceTree = "<group>"; };
 		DBCFB98C243A837B00331F94 /* DetailsViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewControllerTest.swift; sourceTree = "<group>"; };
-		DBCFB990243A85C800331F94 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSnapshotTestCase.framework; sourceTree = "<group>"; };
+		DBCFB992243A8C9A00331F94 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSnapshotTestCase.framework; path = Carthage/Build/iOS/FBSnapshotTestCase.framework; sourceTree = "<group>"; };
+		DBCFB993243A8C9A00331F94 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Carthage/Build/iOS/GoogleMaps.framework; sourceTree = "<group>"; };
+		DBCFB994243A8C9A00331F94 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		DBCFB995243A8C9A00331F94 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Carthage/Build/iOS/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		DBCFB996243A8C9A00331F94 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Carthage/Build/iOS/GooglePlaces.framework; sourceTree = "<group>"; };
+		DBCFB997243A8C9A00331F94 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Carthage/Build/iOS/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		DBCFB998243A8C9A00331F94 /* GoogleMapsM4B.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsM4B.framework; path = Carthage/Build/iOS/GoogleMapsM4B.framework; sourceTree = "<group>"; };
 		DBD2DFB6243A3E5D0042AE47 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
-		DBD2DFB8243A53C00042AE47 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = ../Carthage/Build/iOS/GoogleMaps.framework; sourceTree = "<group>"; };
-		DBD2DFB9243A53C00042AE47 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = ../Carthage/Build/iOS/GooglePlaces.framework; sourceTree = "<group>"; };
-		DBD2DFBA243A53C00042AE47 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = ../Carthage/Build/iOS/GoogleMapsBase.framework; sourceTree = "<group>"; };
-		DBD2DFBB243A53C00042AE47 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = ../Carthage/Build/iOS/GoogleMapsCore.framework; sourceTree = "<group>"; };
-		DBD2DFBC243A53C00042AE47 /* GoogleMapsM4B.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsM4B.framework; path = ../Carthage/Build/iOS/GoogleMapsM4B.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,12 +97,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBD2DFC5243A53C00042AE47 /* GoogleMapsM4B.framework in Frameworks */,
-				DBD2DFBF243A53C00042AE47 /* GooglePlaces.framework in Frameworks */,
-				DBD2DFC1243A53C00042AE47 /* GoogleMapsBase.framework in Frameworks */,
-				DBD2DFC3243A53C00042AE47 /* GoogleMapsCore.framework in Frameworks */,
-				DBD2DFBD243A53C00042AE47 /* GoogleMaps.framework in Frameworks */,
-				DBB3D4BE24397A22002CDC57 /* SnapKit.framework in Frameworks */,
+				DBCFB99D243A8C9B00331F94 /* SnapKit.framework in Frameworks */,
+				DBCFB99B243A8C9B00331F94 /* GoogleMaps.framework in Frameworks */,
+				DBCFB9A5243A8C9B00331F94 /* GoogleMapsM4B.framework in Frameworks */,
+				DBCFB999243A8C9B00331F94 /* FBSnapshotTestCase.framework in Frameworks */,
+				DBCFB9A3243A8C9B00331F94 /* GoogleMapsBase.framework in Frameworks */,
+				DBCFB99F243A8C9B00331F94 /* GoogleMapsCore.framework in Frameworks */,
+				DBCFB9A1243A8C9B00331F94 /* GooglePlaces.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,13 +168,13 @@
 		DB7827A62439291400A27176 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DBCFB990243A85C800331F94 /* FBSnapshotTestCase.framework */,
-				DBD2DFB8243A53C00042AE47 /* GoogleMaps.framework */,
-				DBD2DFBA243A53C00042AE47 /* GoogleMapsBase.framework */,
-				DBD2DFBB243A53C00042AE47 /* GoogleMapsCore.framework */,
-				DBD2DFBC243A53C00042AE47 /* GoogleMapsM4B.framework */,
-				DBD2DFB9243A53C00042AE47 /* GooglePlaces.framework */,
-				DBB3D4BD24397A22002CDC57 /* SnapKit.framework */,
+				DBCFB992243A8C9A00331F94 /* FBSnapshotTestCase.framework */,
+				DBCFB993243A8C9A00331F94 /* GoogleMaps.framework */,
+				DBCFB997243A8C9A00331F94 /* GoogleMapsBase.framework */,
+				DBCFB995243A8C9A00331F94 /* GoogleMapsCore.framework */,
+				DBCFB998243A8C9A00331F94 /* GoogleMapsM4B.framework */,
+				DBCFB996243A8C9A00331F94 /* GooglePlaces.framework */,
+				DBCFB994243A8C9A00331F94 /* SnapKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -484,6 +486,7 @@
 					"$(PROJECT_DIR)/mapTest/GoogleMapsFramework",
 					"\"$(SRCROOT)/../Carthage/Build/iOS\"/**",
 					"\"$(SRCROOT)\"/**",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = mapTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +514,7 @@
 					"$(PROJECT_DIR)/mapTest/GoogleMapsFramework",
 					"\"$(SRCROOT)/../Carthage/Build/iOS\"/**",
 					"\"$(SRCROOT)\"/**",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = mapTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
