@@ -6,7 +6,7 @@
 //  Copyright © 2020 Ronaldo Albertini. All rights reserved.
 //
 
-import UIKit
+
 import GooglePlaces
 
 extension GMSDayOfWeek {

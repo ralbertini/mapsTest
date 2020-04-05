@@ -17,6 +17,8 @@
 		DBB3D4BE24397A22002CDC57 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB3D4BD24397A22002CDC57 /* SnapKit.framework */; };
 		DBB3D4BF24397A22002CDC57 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBB3D4BD24397A22002CDC57 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DBCFB985243A62F400331F94 /* GMSDayOfWeek+mapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCFB984243A62F400331F94 /* GMSDayOfWeek+mapTest.swift */; };
+		DBCFB989243A6F3900331F94 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCFB988243A6F3900331F94 /* LocationManager.swift */; };
+		DBCFB98B243A743D00331F94 /* AgenciesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCFB98A243A743D00331F94 /* AgenciesManager.swift */; };
 		DBD2DFB7243A3E5D0042AE47 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2DFB6243A3E5D0042AE47 /* DetailsViewController.swift */; };
 		DBD2DFBD243A53C00042AE47 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2DFB8243A53C00042AE47 /* GoogleMaps.framework */; };
 		DBD2DFBE243A53C00042AE47 /* GoogleMaps.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2DFB8243A53C00042AE47 /* GoogleMaps.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -74,6 +76,8 @@
 		DB78279C24391F4200A27176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBB3D4BD24397A22002CDC57 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = ../Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		DBCFB984243A62F400331F94 /* GMSDayOfWeek+mapTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GMSDayOfWeek+mapTest.swift"; sourceTree = "<group>"; };
+		DBCFB988243A6F3900331F94 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		DBCFB98A243A743D00331F94 /* AgenciesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgenciesManager.swift; sourceTree = "<group>"; };
 		DBD2DFB6243A3E5D0042AE47 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		DBD2DFB8243A53C00042AE47 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = ../Carthage/Build/iOS/GoogleMaps.framework; sourceTree = "<group>"; };
 		DBD2DFB9243A53C00042AE47 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = ../Carthage/Build/iOS/GooglePlaces.framework; sourceTree = "<group>"; };
@@ -138,6 +142,8 @@
 				DB78279124391F4200A27176 /* Info.plist */,
 				DB62972924392FEB00072141 /* mapTest-Bridging-Header.h */,
 				DBD2DFB6243A3E5D0042AE47 /* DetailsViewController.swift */,
+				DBCFB988243A6F3900331F94 /* LocationManager.swift */,
+				DBCFB98A243A743D00331F94 /* AgenciesManager.swift */,
 			);
 			path = mapTest;
 			sourceTree = "<group>";
@@ -299,7 +305,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB78278824391F4000A27176 /* ViewController.swift in Sources */,
+				DBCFB98B243A743D00331F94 /* AgenciesManager.swift in Sources */,
 				DBCFB985243A62F400331F94 /* GMSDayOfWeek+mapTest.swift in Sources */,
+				DBCFB989243A6F3900331F94 /* LocationManager.swift in Sources */,
 				DB78278424391F4000A27176 /* AppDelegate.swift in Sources */,
 				DB78278624391F4000A27176 /* SceneDelegate.swift in Sources */,
 				DBD2DFB7243A3E5D0042AE47 /* DetailsViewController.swift in Sources */,
