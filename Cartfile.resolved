@@ -1,0 +1,4 @@
+github "SnapKit/SnapKit" "5.0.1"
+github "danitinez/GoogleMaps-Carthage" "3.6.0"
+github "danitinez/GooglePlaces-Carthage" "3.6.0"
+github "uber/ios-snapshot-test-case" "6.2.0"
