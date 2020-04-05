@@ -18,7 +18,6 @@ class DetailsViewController: UIViewController {
     
     lazy var lbOpeningHours: UILabel = UILabel()
 
-    
     lazy var logoImageView: UIImageView = UIImageView()
     lazy var hoursStackView: UIStackView = UIStackView()
     
@@ -30,23 +29,34 @@ class DetailsViewController: UIViewController {
         self.setupViews()
         self.setupConstraints()
         self.loadData()
-        
     }
  
-    func loadData() {
+    private func loadData() {
         
         self.lbTitle.text = place?.name
         self.lbAddress.text = place?.formattedAddress
         
+        self.loadOpeningHours()
+    }
+    
+    private func loadOpeningHours() {
+     
         guard let periods = place?.openingHours?.periods else { return }
-        
         
         for hour in periods {
         
             let hourLabel: UILabel = UILabel()
             hourLabel.font = UIFont(name: "Avenir Next", size: 16.0)
             
-            let openString: String = "\(hour.openEvent.day.dayOfWeek()) Abre: \(hour.openEvent.time) - Fecha: \(hour.closeEvent!.time)"
+            let dayStr: String   = hour.openEvent.day.dayOfWeek()
+            let openStr: String  = "Abre: \(hour.openEvent.time)"
+            var closeStr: String = ""
+            
+            if let closeTime = hour.closeEvent?.time {
+                closeStr = "Fecha: \(closeTime)"
+            }
+            
+            let openString: String = "\(dayStr) \(openStr) \(closeStr)"
             
             hourLabel.text = openString
             
@@ -60,10 +70,10 @@ class DetailsViewController: UIViewController {
         
         self.lbTitle.font = UIFont(name: "Avenir Next", size: 22.0)
         self.lbTitle.textAlignment = .center
+        self.view.addSubview(self.lbTitle)
         
         self.logoImageView.image = UIImage(named: "logo")
-        
-        self.view.addSubview(self.lbTitle)
+        self.view.addSubview(self.logoImageView)
         
         self.lbAddress.font = UIFont(name: "Avenir Next", size: 16.0)
         self.lbAddress.numberOfLines = 0
@@ -74,15 +84,12 @@ class DetailsViewController: UIViewController {
         self.view.addSubview(self.lbAddressDesc)
         
         self.hoursStackView.axis = .vertical
-        
         self.view.addSubview(self.hoursStackView)
         
         self.lbOpeningHours.text = "Horário de funcionamento: "
         self.lbOpeningHours.font = UIFont(name: "Avenir Next", size: 18.0)
-        
-        
         self.view.addSubview(self.lbOpeningHours)
-        self.view.addSubview(self.logoImageView)
+        
     }
     
     private func setupConstraints() {
