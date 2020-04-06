@@ -53,6 +53,11 @@ class ViewController: UIViewController {
 
 extension ViewController: GMSMapViewDelegate {
     
+    func mapView(_ mapView: GMSMapView, didChange position: GMSCameraPosition) {
+        
+        self.locationMgr.getAuthorization()
+    }
+    
     func mapView(_ mapView: GMSMapView, didTap marker: GMSMarker) -> Bool {
 
         if let place = marker.userData as? GMSPlace {

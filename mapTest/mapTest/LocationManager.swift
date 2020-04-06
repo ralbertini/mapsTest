@@ -25,15 +25,11 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
         switch CLLocationManager.authorizationStatus() {
             
         case .notDetermined:
-                locationManager.requestWhenInUseAuthorization()
-                return
+            locationManager.requestWhenInUseAuthorization()
+            return
 
         case .denied, .restricted:
-            let alert = UIAlertController(title: "Location Services disabled", message: "Please enable Location Services in Settings", preferredStyle: .alert)
-            let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-            alert.addAction(okAction)
 
-         //   present(alert, animated: true, completion: nil)
             return
         case .authorizedAlways, .authorizedWhenInUse:
             break
